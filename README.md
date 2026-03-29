@@ -1,33 +1,40 @@
-# 🛡️ Chicago SafeRoute AI: Smart Urban Navigation & Emergency Response
+# 🗺️ Chicago SafeRoute AI: Smart Urban Navigation
 
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![AI](https://img.shields.io/badge/Focus-Artificial_Intelligence-red?style=for-the-badge)
-![Patent](https://img.shields.io/badge/Status-Patent_Pending-orange?style=for-the-badge)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=white)
 
-**Chicago SafeRoute AI** is an advanced mobile security ecosystem designed to provide safer navigation in urban environments. It combines real-time crime data analysis with an AI-driven emergency response protocol to protect users in high-risk areas.
+An AI-driven mobile safety ecosystem designed to provide secure routing and real-time emergency response for urban environments. This project integrates predictive crime modeling with an interactive mobile interface to enhance citizen safety in Chicago.
 
-> ⚠️ **Note on Intellectual Property:** This project is currently under patent application and is part of a formal thesis/TÜBİTAK research. The source code is hosted in a private repository to protect the underlying algorithms and architectural innovations.
+> **⚠️ Note:** This project is currently under **Patent Pending** and is a **Private Source** repository. This README serves as a technical showcase of its architecture and capabilities.
 
-## 🌟 Core Innovations
-- **Risk-Aware Routing:** Instead of just finding the fastest path, the AI calculates the "safest" route by analyzing historical and real-time crime density data in Chicago.
-- **Voice-Activated Emergency Protocol:** A proprietary "Safe Word" system that triggers instant audio transcription and location logging when a specific phrase is detected.
-- **Edge-to-Cloud Intelligence:** Seamless integration between a Flutter mobile front-end and a high-performance Flask/Python backend for real-time risk scoring.
+## 🚀 Key Features
+- **AI-Driven Safe Routing:** Calculates the safest paths between locations by analyzing historical crime data using a Flask-based machine learning API.
+- **Voice-Activated Emergency Protocol:** A specialized "Safe Word" system that triggers 10-second audio transcription and location logging upon voice detection.
+- **Real-Time Risk Mapping:** Visualizes crime density and risk levels across Chicago neighborhoods using interactive heatmaps.
+- **Secure Authentication:** Robust user management system integrated with Firebase Auth for personalized safety data tracking.
+- **Dynamic UI States:** The interface provides immediate visual feedback (Green for Safe, Red for Emergency Mode).
 
-## 🛠 Tech Stack & Architecture
-- **Mobile:** Flutter (Cross-platform accessibility)
-- **Backend:** Flask / Python (RESTful API Design)
-- **Security:** Firebase Authentication & Secure Database Management
-- **Models:** Custom Machine Learning models for crime risk prediction.
+## 🏗️ System Architecture
+The system follows a modern decoupled architecture:
+1. **Frontend:** Cross-platform mobile application built with **Flutter**.
+2. **Backend:** RESTful API developed with **Flask (Python)** to serve ML model predictions.
+3. **Database & Auth:** **Firebase** for real-time data synchronization and user identity management.
+4. **ML Model:** Trained on Chicago Open Data to predict regional risk factors.
 
-## 📸 System Workflow
-1. **User Authentication:** Secure login for personalized safety tracking.
-2. **Safe Navigation:** Real-time mapping with color-coded risk zones (Green for Safe, Red for High-Risk).
-3. **Emergency State:** Visual and functional transition of the UI during active emergency mode.
+
+
+## 📸 Interface & Workflow
+The application prioritizes a minimalist and high-contrast UI for quick interaction during stressful situations.
+
+| 🛡️ Login & Auth | 🗺️ Safe Routing | 🚨 Emergency State |
+| :---: | :---: | :---: |
+| ![Auth Screen](screenshots/safe_auth.jpg) | ![Map Screen](screenshots/safe_map.jpg) | ![SOS Screen](screenshots/safe_sos.jpg) |
 
 ## 🎓 Academic Context
-Developed as a graduation thesis project focusing on the intersection of urban safety and artificial intelligence.
+This project was developed as a **Thesis Project (Tez)** and submitted for **TÜBİTAK** evaluation. It focuses on the practical application of machine learning in social safety and urban planning.
 
 ---
-**Lead Developer:** Hazan - *Computer Engineering Student*
-**Project Status:** Private (Code available upon authorized request for academic review)
+**Developed by Hazan** - *Computer Engineering Student*
+*Focus: AI Integration & Mobile Systems*
